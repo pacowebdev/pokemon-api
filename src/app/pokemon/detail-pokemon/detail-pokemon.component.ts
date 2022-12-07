@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
-import {Pokemon} from "../pokemon/pokemon";
-import {POKEMONS} from "../pokemon/mock-pokemons";
+import {Pokemon} from "../pokemon";
+import {POKEMONS} from "../mock-pokemons";
 
 @Component({
   selector: 'app-detail-pokemon',
